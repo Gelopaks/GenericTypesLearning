@@ -30,7 +30,7 @@ public class Main {
         }*/
 
 // ArrayList
-        ArrayList<Integer> numbers = new ArrayList(); //сохраняет Object. При объявлении типа данных в Object
+       /* ArrayList<Integer> numbers = new ArrayList(); //сохраняет Object. При объявлении типа данных в Object
                                                       // сохраняется объект с объявленным типом данных,
                                                       // что позволяе исключить проверку и преобразование объектов
 
@@ -43,20 +43,21 @@ public class Main {
         for (Integer o : numbers){
             sum = sum + (Integer) o;
         }
-        //System.out.println(sum);
+        System.out.println(sum);*/
 
         // Основной тип <Тип параметр> /  ArrayList<Integer>
         // Основной тип <Тип параметр1,Тип параметр2,Тип параметр3>
 
-        HashMap <Integer, String> map = new HashMap<Integer, String>();
-        map.put(7, "Привет!");
-        map.put(15, "Hello!");
+//        HashMap <Integer, String> map = new HashMap<Integer, String>();
+//        map.put(7, "Привет!");
+//        map.put(15, "Hello!");
 
-        ArrayList<String> listHello = new ArrayList<>();
+// ArrayLists
+      /*  ArrayList<String> listHello = new ArrayList();
         listHello.add("Привет!");
         listHello.add("Hi");
 
-        ArrayList<String> listBye = new ArrayList<>();
+        ArrayList<String> listBye = new ArrayList();
         listBye.add("Пока!");
         listBye.add("Bye!");
 
@@ -68,7 +69,11 @@ public class Main {
             for (String s : spisok) {
                 System.out.println(s);
             }
-        }
+        }*/
+
+
+
+
     }
 }
 /*             То, что пишем мы в коде                   То, во что, преобразует компилятор
