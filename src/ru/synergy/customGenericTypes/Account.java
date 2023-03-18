@@ -3,7 +3,7 @@ package ru.synergy.customGenericTypes;
 public class Account<T> implements Accountable<T>{
     private T id;
     private int sum;
-    private S smth;
+    private Object smth;
 
 
     <S> Account(T id, int sum, S smth){
